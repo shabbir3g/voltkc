@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="description" content="Homely - Responsive Real Estate Template">
+  <meta name="author" content="Rype Creative [Chris Gipple]">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volt Real Estate &#8211; Kansas City Real Estate</title>
+
+  <!-- CSS file links -->
+  <link href="css/settings.css" rel="stylesheet" media="screen">
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/font-awesome.min.anim.css" rel="stylesheet" media="screen">
+  <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+  <link href="assets/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet">
+  <link href="assets/slick-1.6.0/slick.css" rel="stylesheet">
+  <link href="assets/chosen-1.6.2/chosen.min.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
+  <link href="css/nouislider.min.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="css/responsive.css" rel="stylesheet" type="text/css" media="all" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+<header class="header-default">
+
+  <!--<div class="top-bar">
+    <div class="container">
+        <div class="top-bar-left left">
+          <ul class="top-bar-item right social-icons">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+          </ul>
+          <div class="clear"></div>
+        </div>
+        <div class="top-bar-right right">
+          <a href="login.html" class="top-bar-item"><i class="fa fa-sign-in icon"></i>Login</a>
+          <a href="register.html" class="top-bar-item"><i class="fa fa-user-plus icon"></i>Register</a>
+          <div class="clear"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+  </div> -->
+
+  <div class="container">
+
+    <!-- navbar header -->
+    <div class="navbar-header">
+
+      <div class="header-details">
+        <div class="header-item header-search left">
+          <table>
+              <tr>
+              <td><i class="fa fa-search"></i></td>
+              <td class="header-item-text">
+                <form class="search-form">
+                  <input type="text" placeholder="Search..." />
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="header-item header-phone left">
+          <table>
+            <tr>
+              <td><i class="fa fa-phone"></i></td>
+              <td class="header-item-text">
+                Call us anytime<br/>
+                <span>816-420-5144</span>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="header-item header-phone left">
+          <table>
+            <tr>
+              <td><i class="fa fa-envelope"></i></td>
+              <td class="header-item-text">
+                Drop us a line<br/>
+                <span>contact@voltkc.com</span>
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="clear"></div>
+      </div>
+
+      <a class="navbar-brand" href="index-2.html"><img src="images/logo.png" alt="Homely" /></a>
+
+      <!-- nav toggle -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+    </div>
+
+    <!-- main menu -->
+    <div class="navbar-collapse collapse">
+      <div class="main-menu-wrap">
+        <div class="container-fixed">
+
+        <!--<div class="member-actions right">
+          <a href="user-submit-property.html" class="button small alt button-icon"><i class="fa fa-plus"></i>Submit Property</a>
+        </div>-->
+        <ul class="nav navbar-nav right">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Properties</a></li>
+          <li><a href="#">Agents</a></li>
+          <li><a href="#">Blog</a></li>
+          <li class="menu-item-has-children">
+            <a href="#">Pages</a>
+            <ul class="sub-menu">
+              <li><a href="#">About</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">404 Error</a></li>
+              <li><a href="#">Login</a></li>
+              <li><a href="#">Register</a></li>
+			  <li class="menu-item-has-children">
+                <a href="#">User Pages</a>
+                <ul class="sub-menu">
+				  <li><a href="#">User Profile</a></li>
+                  <li><a href="#">My Properties</a></li>
+				  <li><a href="#">Favorited Properties</a></li>
+                  <li><a href="#">Submit Property</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Elements</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="clear"></div>
+
+      </div>
+
+      </div><!-- end main menu wrap -->
+    </div><!-- end navbar collaspe -->
+
+  </div><!-- end container -->
+</header>
+<article class="fullwidthbanner-container " >
+<div id="rev_slider_1_1" class="rev_slider fullwidthabanner">
+		<ul>
+		<li data-transition="3dcurtain-vertical" data-slotamount="8" data-masterspeed="300" >
+							<img src="images/slider/cloud2.jpg" >
+
+
+					<div class="caption lfl"
+						 data-x="-50"
+						 data-y="150"
+						 data-speed="800"
+						 data-start="600"
+						 data-easing="easeOutExpo"><img src="images/slider/ipad.png" alt="Image 3"></div>
+
+					<div class="caption lfl"
+						 data-x="260"
+						 data-y="245"
+						 data-speed="800"
+						 data-start="900"
+						 data-easing="easeOutExpo"><img src="images/slider/iphone.png" alt="Image 4"></div>
+
+					<div class="caption very_big_black lfr"
+						 data-x="619"
+						 data-y="130"
+						 data-speed="300"
+						 data-start="1000"
+						 data-easing="easeOutExpo">Real Estate The Way </div>
+
+
+					<div class="caption medium_maincolorboxed lfr"
+						 data-x="619"
+						 data-y="180"
+						 data-speed="300"
+						 data-start="1200"
+						 data-easing="easeOutExpo">It Should Be</div>
+ 
+					<div class="caption textblock_black lfb"
+						 data-x="619"
+						 data-y="233"
+						 data-speed="300"
+						 data-start="1400"
+						 data-easing="easeOutExpo">Luxury real estate experiences designed through technology,<br/> design, and digital marketing. .<br/>
+	Luxury real estate experiences designed through technology,</div>
+			</li>
+			<li data-transition="papercut" data-slotamount="2" data-masterspeed="300" >
+						<img src="images/slider/enjoyment.jpg" >
+
+
+
+				<div class="caption medium_maincolor lft"
+					 data-x="100"
+					 data-y="86"
+					 data-speed="300"
+					 data-start="500"
+					 data-easing="easeOutExpo">Real Estate The Way </div>
+
+				<div class="caption very_big_black lft"
+					 data-x="100"
+					 data-y="122"
+					 data-speed="300"
+					 data-start="700"
+					 data-easing="easeOutBack">It Should Be</div>
+
+				<div class="caption medium_maincolorboxed randomrotate"
+					 data-x="100"
+					 data-y="181"
+					 data-speed="300"
+					 data-start="900"
+					 data-easing="easeOutExpo">Luxury real estate</div>
+ 
+				<div class="caption medium_maincolorboxed randomrotate"
+					 data-x="100"
+					 data-y="214"
+					 data-speed="300"
+					 data-start="1000"
+					 data-easing="easeOutExpo"> experiences designed through</div>
+
+				<div class="caption medium_maincolorboxed randomrotate"
+					 data-x="100"
+					 data-y="247"
+					 data-speed="300"
+					 data-start="1100"
+					 data-easing="easeOutExpo"> technology, design,</div>
+
+				<div class="caption medium_maincolorboxed randomrotate"
+					 data-x="100"
+					 data-y="282"
+					 data-speed="300"
+					 data-start="1200"
+					 data-easing="easeOutExpo"> and digital marketing.</div>
+			</li>
+			<li data-transition="slideup" data-slotamount="7" data-masterspeed="300" >
+							<img src="images/slider/cloud.jpg" >
+
+					<div class="caption lft"
+						 data-x="450"
+						 data-y="50"
+						 data-speed="500"
+						 data-start="700"
+						 data-easing="easeOutExpo"><iframe src='https://player.vimeo.com/video/100771622?title=0&amp;byline=0&amp;portrait=0' width='600' height='300'></iframe></div>
+						 
+						
+
+					<div class="caption very_big_black lfr"
+						 data-x="80"
+						 data-y="154"
+						 data-speed="300"
+						 data-start="1000"
+						 data-easing="easeOutExpo">Show Videos</div>
+
+					<div class="caption medium_maincolorboxed lfr"
+						 data-x="80"
+						 data-y="203"
+						 data-speed="300"
+						 data-start="1300"
+						 data-easing="easeOutExpo">Vimeo or Youtube</div>
+				</li>
+				<li data-transition="flyin" data-slotamount="1" data-masterspeed="300" >
+							<img src="images/slider/minimal.jpg" >
+
+					<div class="caption very_big_black sfb"
+						 data-x="155"
+						 data-y="292"
+						 data-speed="600"
+						 data-start="500"
+						 data-easing="easeOutBack">Minimalistic</div>
+
+					<div class="caption medium_maincolorboxed sfb"
+						 data-x="155"
+						 data-y="341"
+						 data-speed="600"
+						 data-start="800"
+						 data-easing="easeOutBack">Design Greatness</div>
+				</li>
+		</ul>
+				<!-- <div class="tp-bannertimer"></div>-->
+			</div>
+			</article><!-- END OF FULWIDTH BANNER -->
+
+	  
+	  <section class="module services">
+		<div class="container">
+
+		<div class="module-header wow flipInX">
+		  <h2>Volt <strong>Difference</strong></h2>
+		  <img src="images/divider.png" alt="" />
+		  <p>Morbi accumsan ipsum velit nam nec tellus a odiose tincidunt auctor a ornare odio sed non mauris vitae erat consequat auctor</p>
+		</div>
+    <div class="row">
+      <div class="col-lg-3 col-md-3 wow fadeInRightBig">
+        <div class="service-item shadow-hover">
+          <i class="fa fa-wrench faa-wrench animated-hover"></i>
+         <h4>Volt Difference</h4>
+         
+        </div>
+      </div>
+       <div class="col-lg-3 col-md-3 wow fadeInRightBig">
+        <div class="service-item shadow-hover">
+          <i class="fa fa-envelope faa-shake animated-hover"></i>
+          <h4>Volt Difference</h4>
+         
+        </div>
+      </div>
+	   <div class="col-lg-3 col-md-3 wow fadeInRightBig">
+        <div class="service-item shadow-hover">
+          <i class="fa fa-bell faa-ring animated-hover"></i>
+          <h4>Volt Difference</h4>
+          
+        </div>
+      </div>
+	   <div class="col-lg-3 col-md-3 wow fadeInRightBig">
+        <div class="service-item shadow-hover">
+          <i class="fa fa-trophy faa-tada animated-hover"></i>
+          <h4>Volt Difference</h4>
+          
+        </div>
+      </div>
+      </div>
+	 
+	   <div class="row">
+      <div class="col-lg-3 col-md-3 wow fadeInRightBig">
+        <div class="service-item shadow-hover">
+          <i class="fa fa-thumbs-o-up faa-bounce animated-hover"></i>
+         <h4>Volt Difference</h4>
+         
+        </div>
+      </div>
+       <div class="col-lg-3 col-md-3 wow fadeInRightBig">
+        <div class="service-item shadow-hover">
+          <i class="fa fa-plane faa-float animated-hover"></i>
+          <h4>Volt Difference</h4>
+         
+        </div>
+      </div>
+	   <div class="col-lg-3 col-md-3 wow fadeInRightBig">
+        <div class="service-item shadow-hover">
+          <i class="fa fa-spinner faa-spin animated-hover"></i>
+          <h4>Volt Difference</h4>
+          
+        </div>
+      </div>
+	   <div class="col-lg-3 col-md-3 wow fadeInRightBig">
+        <div class="service-item shadow-hover">
+          <i class="fa fa-space-shuttle faa-passing animated-hover"></i>
+          <h4>Volt Difference</h4>
+          
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="module no-padding properties featured">
+
+  <div class="container">
+    <div class="module-header wow slideInRight">
+      <h2>Featured <strong>Properties</strong></h2>
+      <img src="images/divider.png" alt="" />
+      <p>Morbi accumsan ipsum velit nam nec tellus a odiose tincidunt auctor a ornare odio sed non mauris vitae erat consequat auctor</p>
+    </div>
+  </div>
+
+  <div class="slider-nav slider-nav-properties-featured">
+    <span class="slider-prev"><i class="fa fa-angle-left"></i></span>
+    <span class="slider-next"><i class="fa fa-angle-right"></i></span>
+  </div>
+  
+  <div class="slider-wrap">
+    <div class="slider slider-featured ">
+    
+    <div class="property property-hidden-content slide wow rotateInUpRight">
+      <a href="#" class="property-content">
+        <div class="property-title">
+          <h4>Modern Family Home</h4>
+          <p class="property-address"><i class="fa fa-map-marker icon"></i>123 Smith Dr, Annapolis, MD</p>
+        </div>
+        <table class="property-details">
+          <tr>
+            <td><i class="fa fa-bed"></i> 3 Beds</td>
+            <td><i class="fa fa-tint"></i> 2 Baths</td>
+            <td><i class="fa fa-expand"></i> 25,000 Sq Ft</td>
+          </tr>
+        </table>
+      </a>
+      <a href="#" class="property-img">
+          <div class="img-fade"></div>
+          <div class="property-tag button alt featured">Featured</div>
+          <div class="property-tag button status">For Rent</div>
+          <div class="property-price">$150,000</div>
+          <div class="property-color-bar"></div>
+          <img src="images/property-img1.jpg" alt="" />
+      </a>
+    </div>
+
+    <div class="property property-hidden-content slide wow rotateInUpRight">
+      <a href="#" class="property-content">
+        <div class="property-title">
+          <h4>Modern Family Home</h4>
+          <p class="property-address"><i class="fa fa-map-marker icon"></i>123 Smith Dr, Annapolis, MD</p>
+        </div>
+        <table class="property-details">
+          <tr>
+            <td><i class="fa fa-bed"></i> 3 Beds</td>
+            <td><i class="fa fa-tint"></i> 2 Baths</td>
+            <td><i class="fa fa-expand"></i> 25,000 Sq Ft</td>
+          </tr>
+        </table>
+      </a>
+      <a href="#" class="property-img">
+          <div class="img-fade"></div>
+          <div class="property-tag button alt featured">Featured</div>
+          <div class="property-tag button status">For Rent</div>
+          <div class="property-price">$150,000</div>
+          <div class="property-color-bar"></div>
+          <img src="images/property-img2.jpg" alt="" />
+      </a>
+    </div>
+
+    <div class="property property-hidden-content slide wow rotateInUpLeft">
+      <a href="#" class="property-content">
+        <div class="property-title">
+          <h4>Modern Family Home</h4>
+          <p class="property-address"><i class="fa fa-map-marker icon"></i>123 Smith Dr, Annapolis, MD</p>
+        </div>
+        <table class="property-details">
+          <tr>
+            <td><i class="fa fa-bed"></i> 3 Beds</td>
+            <td><i class="fa fa-tint"></i> 2 Baths</td>
+            <td><i class="fa fa-expand"></i> 25,000 Sq Ft</td>
+          </tr>
+        </table>
+      </a>
+      <a href="#" class="property-img">
+          <div class="img-fade"></div>
+          <div class="property-tag button alt featured">Featured</div>
+          <div class="property-tag button status">For Rent</div>
+          <div class="property-price">$150,000</div>
+          <div class="property-color-bar"></div>
+          <img src="images/property-img3.jpg" alt="" />
+      </a>
+    </div>
+
+    <div class="property property-hidden-content slide wow rotateInUpLeft">
+      <a href="#" class="property-content">
+        <div class="property-title">
+          <h4>Modern Family Home</h4>
+          <p class="property-address"><i class="fa fa-map-marker icon"></i>123 Smith Dr, Annapolis, MD</p>
+        </div>
+        <table class="property-details">
+          <tr>
+            <td><i class="fa fa-bed"></i> 3 Beds</td>
+            <td><i class="fa fa-tint"></i> 2 Baths</td>
+            <td><i class="fa fa-expand"></i> 25,000 Sq Ft</td>
+          </tr>
+        </table>
+      </a>
+      <a href="#" class="property-img">
+          <div class="img-fade"></div>
+          <div class="property-tag button alt featured">Featured</div>
+          <div class="property-tag button status">For Rent</div>
+          <div class="property-price">$150,000</div>
+          <div class="property-color-bar"></div>
+          <img src="images/property-img4.jpg" alt="" />
+      </a>
+    </div>
+  
+    <div class="property property-hidden-content slide wow rotateInUpRight">
+      <a href="#" class="property-content">
+        <div class="property-title">
+          <h4>Modern Family Home</h4>
+          <p class="property-address"><i class="fa fa-map-marker icon"></i>123 Smith Dr, Annapolis, MD</p>
+        </div>
+        <table class="property-details">
+          <tr>
+            <td><i class="fa fa-bed"></i> 3 Beds</td>
+            <td><i class="fa fa-tint"></i> 2 Baths</td>
+            <td><i class="fa fa-expand"></i> 25,000 Sq Ft</td>
+          </tr>
+        </table>
+      </a>
+      <a href="#" class="property-img">
+          <div class="img-fade"></div>
+          <div class="property-tag button alt featured">Featured</div>
+          <div class="property-tag button status">For Rent</div>
+          <div class="property-price">$150,000</div>
+          <div class="property-color-bar"></div>
+          <img src="images/property-img2.jpg" alt="" />
+      </a>
+    </div>
+  
+    </div><!-- end slider -->
+  </div><!-- end slider wrap -->
+</section>
+
+<section class="module property-categories">
+  <div class="container">
+
+    <div class="module-header wow slideInLeft">
+      <h2>Browse Our Most <strong>Popular Categories</strong></h2>
+      <img src="images/divider.png" alt="" />
+      <p>Morbi accumsan ipsum velit nam nec tellus a odiose tincidunt auctor a ornare odio sed non mauris vitae erat consequat auctor</p>
+    </div>
+
+    <div class="row wow rollIn">
+      <div class="col-lg-8 col-md-8">
+		<div class="cat-sob"> 
+			 <a href="#" class="property-cat property-cat-apartments">
+			  <h3>Studio Apartments</h3>
+			  <div class="color-bar"></div>
+			  <span class="button small">234 Properties</span>
+			</a>
+		</div>
+      </div>
+      <div class="col-lg-4 col-md-4">
+		<div class="cat-sob"> 
+			<a href="#" class="property-cat property-cat-houses">
+			  <h3>Family Homes</h3>
+			  <div class="color-bar"></div>
+			  <span class="button small">234 Properties</span>
+			</a>
+		</div>
+      </div>
+    </div><!-- end row -->
+
+    <div class="row wow flipInX">
+      <div class="col-lg-4 col-md-4">
+		<div class="cat-sob"> 
+			<a href="#" class="property-cat property-cat-condos">
+			  <h3>Condos & Villas</h3>
+			  <div class="color-bar"></div>
+			  <span class="button small">234 Properties</span>
+			</a>
+		  </div>
+      </div>
+      <div class="col-lg-4 col-md-4">
+		<div class="cat-sob"> 
+			<a href="#" class="property-cat property-cat-waterfront">
+			  <h3>Waterfront Homes</h3>
+			  <div class="color-bar"></div>
+			  <span class="button small">234 Properties</span>
+			</a>
+		  </div>
+      </div>
+      <div class="col-lg-4 col-md-4">
+		<div class="cat-sob"> 
+			<a href="#" class="property-cat property-cat-cozy">
+			  <h3>Cozy Houses</h3>
+			  <div class="color-bar"></div>
+			  <span class="button small">234 Properties</span>
+			</a>
+		  </div>
+      </div>
+    </div><!-- end row -->
+
+  </div><!-- end container -->
+</section>
+
+<section class="module testimonials wow flipInY">
+
+  <div class="container">
+    <div class="module-header">
+      <h2>Our <strong>Testimonials</strong></h2>
+      <img src="images/divider-white.png" alt="" />
+      <p>Morbi accumsan ipsum velit nam nec tellus a odiose tincidunt auctor a ornare odio sed non mauris vitae erat consequat auctor</p>
+    </div>
+  </div>
+
+  <div class="slider-nav slider-nav-testimonials">
+    <span class="slider-prev"><i class="fa fa-angle-left"></i></span>
+    <span class="slider-next"><i class="fa fa-angle-right"></i></span>
+  </div>
+
+  <div class="container">
+    <div class="slider slider-testimonials">
+      <div class="testimonial slide">
+        <h3>"Homely helped us sell our house with minimal effort. Their team was efficient and always there to help!"</h3>
+        <div class="testimonial-details">
+          <img class="testimonial-img" src="images/testimonial-img.png" alt="" />
+          <p class="testimonial-name"><strong>John Doe</strong></p>
+          <span class="testiomnial-title"><em>CEO at <a href="#">Rype Creative</a></em></span>
+        </div>
+      </div>
+      <div class="testimonial slide">
+        <h3>"Homely helped us sell our house with minimal effort. Their team was efficient and always there to help!"</h3>
+        <div class="testimonial-details">
+          <img class="testimonial-img" src="images/testimonial-img.png" alt="" />
+          <p class="testimonial-name"><strong>John Doe</strong></p>
+          <span class="testiomnial-title"><em>CEO at <a href="#">Rype Creative</a></em></span>
+        </div>
+      </div>
+    </div><!-- end slider -->
+  </div><!-- end container -->
+</section>
+<section class="module properties">
+  <div class="container">
+
+    <div class="module-header wow slideInRight" style="visibility: visible; animation-name: slideInRight;">
+      <h2>NEWS AND BLOG</strong></h2>
+      <img src="images/divider.png" alt="">
+      <p>Morbi accumsan ipsum velit nam nec tellus a odiose tincidunt auctor a ornare odio sed non mauris vitae erat consequat auctor</p>
+    </div>
+
+    <div class="row">
+
+        <div class="col-lg-4 col-md-4 wow bounceInDown" style="visibility: visible; animation-name: bounceInDown;">
+          <div class="property shadow-hover">
+            <a href="#" class="property-img">
+              <div class="img-fade"></div>
+              <div class="property-tag button alt featured">20 July,2017</div>
+              <div class="property-price">Hello World</div>
+             
+              <div class="property-color-bar"></div>
+              <img src="images/property-img1.jpg" alt="">
+            </a>
+            <div class="property-content">
+              <div class="property-title">
+                <p class="property-address">This is my first post Founded on the idea that real estate is more than just putting your sign in a client’s yard.</p>
+				<a class="more" href="#">Read More</a>
+              </div>
+              <table class="property-details">
+                <tbody><tr>
+                  <td><i class="fa fa-user-o"></i> Mostafiz</td>
+                  <td><i class="fa fa-tags"></i> valo, kharap, amik</td>
+                </tr>
+				</tbody></table>
+            </div>
+          </div>
+        </div>
+		  <div class="col-lg-4 col-md-4 wow bounceInDown" style="visibility: visible; animation-name: bounceInDown;">
+          <div class="property shadow-hover">
+            <a href="#" class="property-img">
+              <div class="img-fade"></div>
+              <div class="property-tag button alt featured">20 July,2017</div>
+              <div class="property-price">Hello World</div>
+             
+              <div class="property-color-bar"></div>
+              <img src="images/property-img1.jpg" alt="">
+            </a>
+            <div class="property-content">
+              <div class="property-title">
+                <p class="property-address">This is my first post Founded on the idea that real estate is more than just putting your sign in a client’s yard.</p>
+				<a class="more" href="#">Read More</a>
+              </div>
+              <table class="property-details">
+                <tbody><tr>
+                  <td><i class="fa fa-user-o"></i> Mostafiz</td>
+                  <td><i class="fa fa-tags"></i> valo, kharap, amik</td>
+                </tr>
+				</tbody></table>
+            </div>
+          </div>
+        </div>
+		  <div class="col-lg-4 col-md-4 wow bounceInDown" style="visibility: visible; animation-name: bounceInDown;">
+          <div class="property shadow-hover">
+            <a href="#" class="property-img">
+              <div class="img-fade"></div>
+              <div class="property-tag button alt featured">20 July,2017</div>
+              <div class="property-price">Hello World</div>
+             
+              <div class="property-color-bar"></div>
+              <img src="images/property-img1.jpg" alt="">
+            </a>
+            <div class="property-content">
+              <div class="property-title">
+                <p class="property-address">This is my first post Founded on the idea that real estate is more than just putting your sign in a client’s yard.</p>
+				<a class="more" href="#">Read More</a>
+              </div>
+              <table class="property-details">
+                <tbody><tr>
+                  <td><i class="fa fa-user-o"></i> Mostafiz</td>
+                  <td><i class="fa fa-tags"></i> valo, kharap, amik</td>
+                </tr>
+				</tbody></table>
+            </div>
+          </div>
+        </div>
+
+        
+    </div><!-- end row -->
+
+    <div class="center"><a href="#" class="button button-icon more-properties-btn"><i class="fa fa-angle-right"></i> View More Blog</a></div>
+
+  </div><!-- end container -->
+</section>
+
+
+
+<section class="module cta newsletter">
+  <div class="container">
+	<div class="row wow flipInY">
+		<div class="col-lg-7 col-md-7">
+			<h3>Sign up for our <strong>newsletter.</strong></h3>
+			<p>Lorem molestie odio. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+		</div>
+		<div class="col-lg-5 col-md-5">
+			<form method="post" id="newsletter-form" class="newsletter-form">
+				<input type="email" placeholder="Your email..." />
+				<button type="submit" form="newsletter-form"><i class="fa fa-send"></i></button>
+			</form>
+		</div>
+	</div><!-- end row -->
+  </div><!-- end container -->
+</section>
+
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3 col-sm-4 widget footer-widget">
+                <a class="footer-logo" href="index-2.html"><img src="images/logo.png" alt="Homely" /></a>
+                <p>Lorem ipsum dolor amet, consectetur adipiscing elit. Sed ut 
+                purus eget nunc ut dignissim cursus at a nisl. Mauris vitae 
+                turpis quis eros egestas tempor sit amet a arcu. Duis egestas 
+                hendrerit diam.</p>
+                <div class="divider"></div>
+                <ul class="social-icons circle">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-4 widget footer-widget from-the-blog">
+                <h4><span>From the Blog</span> <img src="images/divider-half.png" alt="" /></h4>
+                <ul>
+                    <li>
+                      <a href="#"><h3>Hello World </h3></a>
+                      <p>Lorem ipsum dolor amet, consectetur adipiscing elit....<br/> <a href="#">Read More</a></p>
+                      <div class="clear"></div>
+                    </li>
+                     <li>
+                        <a href="#"><h3>Hello World</h3></a>
+                        <p>Lorem ipsum dolor amet, consectetur adipiscing elit....<br/> <a href="#">Read More</a></p>
+                        <div class="clear"></div>
+                      </li>
+                </ul>
+            </div>
+			 
+
+            <div class="col-lg-3 col-md-3 col-sm-4 widget footer-widget">
+                <h4><span>Get In Touch</span> <img src="images/divider-half.png" alt="" /></h4>
+                <p>201 NE 91st St.<br/>
+                Kansas City,  MO 64155<br/>
+                816-420-5144
+                </p>
+                <p>
+                <b class="open-hours">Open Hours</b><br/>
+                Mondy - Friday: 9 am - 5 pm<br/>
+                Saturday: 9 am - 1pm<br/>
+                Sunday: Closed
+                </p>
+                <p class="footer-phone"><i class="fa fa-phone icon"></i> (123) 456-7890</p>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 widget footer-widget newsletter">
+                <h4><span>Newsletter</span> <img src="images/divider-half.png" alt="" /></h4>
+                <p><b>Subscribe to our newsletter!</b> Vel lorem ipsum. Lorem molestie odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. </p>
+                <form class="subscribe-form" method="post" action="#">
+                    <input type="text" name="email" value="Your email" />
+                    <input type="submit" name="submit" value="SEND" class="button small alt" />
+                </form>
+            </div>
+        </div><!-- end row -->
+    </div><!-- end footer container -->
+</footer>
+
+<div class="bottom-bar">
+    <div class="container">
+    Copyright © 2017  |  All Rights Reserved by <a href="http://www.voltkc.com/" target="_blank">Volt Real Estate</a>
+    </div>
+</div>
+
+<!-- JavaScript file links -->
+<script src="js/jquery-3.1.1.min.js"></script>      <!-- Jquery -->
+<script src="assets/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+<script src="js/jquery.themepunch.plugins.min.js"></script>
+<script src="js/jquery.themepunch.showbizpro.js"></script>
+
+<script src="js/jquery.themepunch.revolution.min.js"></script>
+<script src="js/bootstrap.min.js"></script>  <!-- bootstrap 3.0 -->
+<script src="assets/slick-1.6.0/slick.min.js"></script> <!-- slick slider -->
+<script src="assets/chosen-1.6.2/chosen.jquery.min.js"></script> <!-- chosen - for select dropdowns -->
+<script src="js/isotope.min.js"></script> <!-- isotope-->
+<script src="js/wNumb.js"></script> <!-- price formatting -->
+<script src="js/nouislider.min.js"></script> <!-- price slider -->
+<script src="js/global.js"></script>
+<script src="js/wow.min.js"></script>
+ <script>
+	 var wow = new WOW(
+	  {
+		boxClass:     'wow',      // animated element css class (default is wow)
+		animateClass: 'animated', // animation css class (default is animated)
+		offset:       0,          // distance to the element when triggering the animation (default is 0)
+		mobile:       true,       // trigger animations on mobile devices (default is true)
+		live:         true,       // act on asynchronously loaded content (default is true)
+		callback:     function(box) {
+		  // the callback is fired every time an animation is started
+		  // the argument that is passed in is the DOM node being animated
+		},
+		scrollContainer: null,    // optional scroll container selector, otherwise use window,
+		resetAnimation: true,     // reset animation on end (default is true)
+	  }
+	);
+	wow.init();
+	
+	
+		var revapi1;
+
+				jQuery(document).ready(function() {
+
+				   revapi1 = jQuery('#rev_slider_1_1').show().revolution(
+					{
+						delay:9000,
+						startheight:400,
+						startwidth:1200,
+
+
+						hideThumbs:200,
+
+						thumbWidth:100,							// Thumb With and Height and Amount (only if navigation Tyope set to thumb !)
+						thumbHeight:50,
+						thumbAmount:5,
+
+						navigationType:"none",						// bullet, thumb, none
+						navigationArrows:"solo",				// nexttobullets, solo (old name verticalcentered), none
+
+						navigationStyle:"round",				// round,square,navbar,round-old,square-old,navbar-old, or any from the list in the docu (choose between 50+ different item), custom
+
+
+						navigationHAlign:"center",				// Vertical Align top,center,bottom
+						navigationVAlign:"bottom",					// Horizontal Align left,center,right
+						navigationHOffset:0,
+						navigationVOffset:20,
+
+						soloArrowLeftHalign:"left",
+						soloArrowLeftValign:"center",
+						soloArrowLeftHOffset:20,
+						soloArrowLeftVOffset:0,
+
+						soloArrowRightHalign:"right",
+						soloArrowRightValign:"center",
+						soloArrowRightHOffset:20,
+						soloArrowRightVOffset:0,
+
+						touchenabled:"on",						// Enable Swipe Function : on/off
+						onHoverStop:"on",						// Stop Banner Timet at Hover on Slide on/off
+
+						stopAtSlide:-1,							// Stop Timer if Slide "x" has been Reached. If stopAfterLoops set to 0, then it stops already in the first Loop at slide X which defined. -1 means do not stop at any slide. stopAfterLoops has no sinn in this case.
+						stopAfterLoops:-1,						// Stop Timer if All slides has been played "x" times. IT will stop at THe slide which is defined via stopAtSlide:x, if set to -1 slide never stop automatic
+
+						hideCaptionAtLimit:0,					// It Defines if a caption should be shown under a Screen Resolution ( Basod on The Width of Browser)
+						hideAllCaptionAtLilmit:0,				// Hide all The Captions if Width of Browser is less then this value
+						hideSliderAtLimit:0,					// Hide the whole slider, and stop also functions if Width of Browser is less than this value
+
+						shadow:1,								//0 = no Shadow, 1,2,3 = 3 Different Art of Shadows  (No Shadow in Fullwidth Version !)
+						fullWidth:"off"							// Turns On or Off the Fullwidth Image Centering in FullWidth Modus
+					});
+
+
+				});	//ready
+
+
+    
+  </script>
+
+
+</body>
+</html>

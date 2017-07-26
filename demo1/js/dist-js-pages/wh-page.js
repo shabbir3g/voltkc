@@ -1,0 +1,1 @@
+$(document).ready(function(){var whitePaperSCards=$('.wh-paper--item'),whitePapersList=$('.wh--papers-list');whitePaperSCards.hover(function(){$(this).removeClass('revert').addClass('play');},function(){$(this).removeClass('play').addClass('revert');});});
